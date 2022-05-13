@@ -1,0 +1,18 @@
+{
+  "content_scripts": [
+    {
+      "js": [
+        "content_script.js"
+      ],
+      "matches": [
+        "https://*.youtube.com/*"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "description": "This extension can modify webpages",
+  "manifest_version": 3,
+  "name": "Web Modifier",
+  "version": "1.0"
+}
