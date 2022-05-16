@@ -30,9 +30,6 @@
 
 				if (!quality.includes("144p")) {
 					document
-						.querySelectorAll(".ytp-settings-button")[0]
-						.click();
-					document
 						.querySelectorAll(
 							".ytp-settings-menu .ytp-menuitem:last-child"
 						)[0]
